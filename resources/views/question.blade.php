@@ -40,6 +40,7 @@
                                         View
                                     </a>
 
+
                                 </div>
                             </div>
                         @empty
