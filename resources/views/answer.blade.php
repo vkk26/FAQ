@@ -14,8 +14,12 @@
                         <button class="btn btn-danger float-right mr-2" value="submit" type="submit" id="submit">Delete
                         </button>
                         {!! Form::close() !!}
-                        <a class="btn btn-primary float-right" href="{{ route('answers.edit',['question_id'=> $question, 'answer_id'=> $answer->id, ])}}">
+                        <a class="btn btn-primary float-right mr-1" href="{{ route('answers.edit',['question_id'=> $question, 'answer_id'=> $answer->id, ])}}">
                             Edit Answer
+                        </a>
+
+                        <a class="btn btn-success float-right mr-1" href="{{ route('answers.correct',['question_id'=> $question, 'answer_id'=> $answer->id, ])}}">
+                            Correct
                         </a>
                     </div>
                 </div>
