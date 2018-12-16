@@ -86,12 +86,25 @@ I have used the laravel dusk to test this button whether it is working fine or n
          
  Make sure that you refresh database every time to check the test
  
- i used some tutorial as reference to write this test
- (https://www.youtube.com/watch?v=V75hPsS6cvk)
+ # EPIC
  
-  that's it. i have got no errors while running this test. it works fine.
+ In the FAQ application where users can create and post questions as well answers, as a developer i made feature for users to make the posted answer as correct answer if user wants to make it. and to test that feature i have installed laravel Dusk.
    
+### User stories
+
+1. As a user to the FAQ Application if i want to create a question and answer to post it. steps to follow
+            >> register for the application
+            >> after logging into the app in the home page there is an option to create question
+            >> then after created the question i can create answer for it through an otion create answer
+
+2. As a user if i want to make the posted answer as correct answer.  steps to follow
+            >> after posting an answer for  aquestion there is an option view to make changes to the answer
+            >> there are two options already "edit answer" and "delete answer" third is newly added on "correct"
+            >> By clicking on the button "correct" I can make my answer correct answer.
    
-   
-   
+3. As a developer for the application i need to check that newly added button is working fine or not. steps i followed
+            >> to test this i used Laravel Dusk installation link (https://laravel.com/docs/5.7/dusk).
+            >> i have written the test using documentation and some referal video (https://www.youtube.com/watch?v=V75hPsS6cvk).
+            >>i tested it. and it works fine.
+            >> screenshot of the test had sent to professor by mail.
  
