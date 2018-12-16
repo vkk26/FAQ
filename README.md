@@ -53,8 +53,8 @@ I have used the laravel dusk to test this button whether it is working fine or n
    ## AnswerCorrectTest.php
               
                     
-                    
-                    $this->browse(function (Browser $browser) {
+                 
+                     $this->browse(function (Browser $browser) {
                      $browser->visit('http://localhost:8000/register')
                      ->value('#email', 'example@example.com')
                      ->value('#password', 'secret')
@@ -95,10 +95,15 @@ I have used the laravel dusk to test this button whether it is working fine or n
 1. As a user to the FAQ Application if i want to create a question and answer to post it. steps to follow
             >> register for the application
             >> after logging into the app in the home page there is an option to create question
-            >> then after created the question i can create answer for it through an otion create answer
-
-2. As a user if i want to make the posted answer as correct answer.  steps to follow
-            >> after posting an answer for  aquestion there is an option view to make changes to the answer
+            >> then after created the question i can create answer for it through an option create answer
+            
+2. As a user if i want to edit the posted question/answer or delete the question/answer.  steps to follow
+            >> after posting a question/answer there is an option view to make changes to the question/answer
+            >> there are two options "edit question/answer" and "delete question/answer". 
+            >> By clicking on the respective button I can make changes to question/answer.
+            
+3. As a user if i want to make the posted answer as correct answer.  steps to follow
+            >> after posting an answer for a question there is an option view to make changes to the answer
             >> there are two options already "edit answer" and "delete answer" third is newly added on "correct"
             >> By clicking on the button "correct" I can make my answer correct answer.
    
