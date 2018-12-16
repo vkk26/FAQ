@@ -41,7 +41,6 @@ class AnswerCorrectTest extends DuskTestCase
                 ->assertSee('Updated')
                 ->clickLink('Correct')
                 ->assertSee('Answer is correct.');
-
         });
     }
 }
