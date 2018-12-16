@@ -42,7 +42,7 @@ To run the FAQ project:
 
 I have used the laravel dusk to test this button whether it is working fine or not.
    
-   ##Laravel dusk installation
+   ## Laravel dusk installation
    
    1. to install visit  (https://laravel.com/docs/5.7/dusk)
    
@@ -50,9 +50,12 @@ I have used the laravel dusk to test this button whether it is working fine or n
    
    3. to test this button i have written code like
    
-   ##AnswerCorrectTest.php
-    $this->browse(function (Browser $browser) {
-                 $browser->visit('http://localhost:8000/register')
+   ## AnswerCorrectTest.php
+              
+                    
+                    
+                    $this->browse(function (Browser $browser) {
+                     $browser->visit('http://localhost:8000/register')
                      ->value('#email', 'example@example.com')
                      ->value('#password', 'secret')
                      ->value('#password-confirm', 'secret')
